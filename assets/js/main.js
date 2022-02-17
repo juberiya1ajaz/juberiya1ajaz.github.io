@@ -1,5 +1,4 @@
 
-
 // ACTIVE & REMOVE ACTIVE
 const navLink = document.querySelectorAll('.nav_link')
 navLink.forEach(n => n.classList.remove('active'))
