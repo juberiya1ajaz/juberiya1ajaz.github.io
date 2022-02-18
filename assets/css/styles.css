@@ -426,6 +426,13 @@ img {
 }
 
 /* Footer */
+hr{
+  width: 95%;
+  border: 0.2px solid rgb(255, 255, 255,0.25);
+  margin-bottom: 13px ;
+  margin-top: 10px;
+  
+}
 .footer {
   background-color: var(--second-color);
   color: #fff;
