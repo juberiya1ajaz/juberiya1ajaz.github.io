@@ -217,6 +217,50 @@ img {
   display: flex;
   flex-direction: column;
 }
+/* Typing effect */
+.typewriter p 
+{
+  white-space: nowrap;
+  overflow: hidden;
+}
+.typewriter p:nth-child(1) 
+{
+  width: 16em;
+  animation: type 3s steps(40, end)  forwards;
+}
+
+.typewriter p:nth-child(2) 
+{
+
+  width: 14.5em;
+  opacity: 0;
+  animation: type2 4s steps(40, end) 2.5s  forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+
 
 .home_social-icon {
   width: max-content;
